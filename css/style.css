@@ -532,3 +532,56 @@ a {
     margin: 0;
     font-size: 16px;
 }
+
+
+
+
+footer{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--main-bg-color);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer .footer-row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer .footer-row h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+footer .footer-row ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+footer .footer-row ul li{
+    list-style: none;
+    font-size: 14px;
+}
+
+footer .footer-row ul li a{
+    text-decoration: none;
+    color: #000;
+}
