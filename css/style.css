@@ -486,3 +486,49 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+.activities {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.activities-title {
+    margin-bottom: 30px;
+}
+
+.activities-cards {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.activities-cards a {
+    width: calc(25% - 23px);
+}
+
+.activities-cards .card {
+    width: 100%;
+    padding: 0;
+    height: 445px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.activities-cards .card img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+
+.activities-cards .card-content {
+    padding: 20px;
+}
+
+.activities-cards .card-title {
+    margin: 0;
+    font-size: 16px;
+}
