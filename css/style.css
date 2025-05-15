@@ -33,7 +33,6 @@ nav.nav-desktop {
     align-items: flex-start;
 }
 
-
 .nav-desktop .logo {
     height: 79px;
     display: flex;
@@ -52,9 +51,6 @@ nav.nav-desktop .link {
     align-items: flex-start;
     height: 79px;
 }
-
-
-
 
 nav.nav-desktop ul {
     display: flex;
@@ -258,7 +254,6 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
 }
-
 
 a {
     color: inherit;
@@ -694,7 +689,6 @@ footer .footer-row ul li a {
         width: 100%;
         height: auto;
     }
-
 
     nav.nav-desktop .link * {
         all: unset;
